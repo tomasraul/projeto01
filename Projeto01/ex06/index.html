@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <section class="qarea">
+           <p>Tens a area?</p>
+           <div>
+               <input type="radio" name="area" id="sim" onchange="areaSelect()"><label for="sim">Sim</label>
+               
+               <input type="radio" name="area" id="nao" onchange="medSelect()"><label for="nao">Nao</label>
+           </div> 
+        </section>
+        
+        
+        <section>
+            <div id="txtarea">
+                <label for="area"> Area....:</label>
+                <input type="number" name="num" id="area" placeholder="Area (m²)">
+            </div>
+            <div id="compr">
+                <label for="comp">Comprimento:</label>
+                <input type="number" name="comprimento" id="comp" placeholder="Comprimento (m)">
+            </div>
+            <div id="large">
+                <label for="larg">Largura............:</label>
+                <input type="number" name="largura" id="larg" placeholder="Largura (m)">
+            </div>
+        </section>
+        
+        
+        
+        <section class="selecionar">
+            <p><strong>Escolha as tijoleiras</strong></p>
+            <select id="selecionar">
+                <option id="select">---select---</option>
+                <option id="qptr">15cm/30cm</option>
+                <option id="qrpqr">40cm/40cm</option>
+                <option id="trpst">30cm/60cm</option>
+                <option id="stpst">60cm/60cm</option>
+                <option id="stpcv">60cm/120cm</option>
+                <option id="qpcv">15cm/120cm</option>
+            </select>
+        </section>
+        
+        
+        
+        <section class="quantia">
+            <p><strong>Quantas tijoleiras por caixa?</strong></p>
+            <div id="quantia">
+                <label>Numero/caixa: </label>
+                <input type="number" name="num" id="quant" list="lstquant">
+                <datalist id="lstquant">
+                <option>2</option>
+                <option>4</option>
+                <option>7</option>
+                <option>8</option>
+                <option>12</option>
+                </datalist>
+            </div>
+           
+        </section>
+        <p>
+            <input type="button" value="Calcular" onclick="resultado()" class="botao">
+        </p>
+        <div id="res"></div>
+        
+    </main>
+    <a href="../index.html"><code> << </code> Pagina principal</a>
+    
+    <script src="script_final_com_ceil.js"></script>
+    <footer>
+        <marquee>Desenvolvido pelo Tomas Raul</marquee>
+     </footer>
+</body>
+</html>

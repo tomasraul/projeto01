@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient(15deg, cyan,#e380ff, #ff9595);
+}
+body {
+    background-image: linear-gradient(to top, #ff6afc, #ffbfff, transparent);
+   height: 100vh;
+}
+div{
+    margin: 30px 3px;
+}
+main{
+    background-image: linear-gradient(20deg, #68c8115e, #c853c55e, #21b8c85e);
+    width: 80vw;
+    border: solid 2px hotpink;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    font-size: 5vw;
+    overflow: hidden;
+    padding: 5px;
+}
+.qarea{
+    display: flex;
+    background-image: linear-gradient(6deg, #e397c775, #e3978475, #e3e08475);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 0px;
+}
+.qarea > div {
+    padding: 8px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    border: dashed 2px blue;
+}
+#area, #comp, #larg, #quant{
+    padding: 7px;
+    border: 2px solid violet;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 3vw;
+    background-image: linear-gradient(19deg, white, #dfd5ff, transparent, #6aa2ff);
+    
+}
+#compr{
+    background-color: blueviolet;
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+#large{
+    background-color: blueviolet;
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+#txtarea{
+    background-color: blueviolet;
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+#quantia{
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 4px;
+    align-content: center;
+    
+}
+#compr > label, #quantia > label, #txtarea > label, #large > label{
+    display: flex;
+    align-items: center;
+}
+.botao{
+    font-size: 4vw;
+    border: solid 2px violet;
+    padding: 13px;
+    border-radius: 15px;
+    order: 1;
+    align-items: center;
+}
+.selecionar{
+    background-color: darkturquoise;
+    width: 100%;
+    border: double 1px darkgray;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#selecionar{
+    align-self: center;
+    height: 40px;
+    font-size: 3vw;
+    border: dotted 2px yellowgreen;
+    border-radius: 10px;
+}
+.quantia{
+    padding-top: 25px;
+    text-align: center;
+    
+}
+#res{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+marquee{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+a{
+    padding: 18px 0px 1px 11px;
+}
+@media(orientation: landscape){
+    main{
+        font-size: 3vw;
+        padding: 10px;
+    }
+    section{
+        margin: auto;
+    }
+}
+@media(min-width: 768px){
+    main{
+        font-size: 3.4vw;
+    }
+    section{
+        margin: auto;
+        padding: 10px;
+    }
+    #sim, #nao{
+        padding: 30em;
+    }
+    .selecionar{
+        height: 60px;
+    }
+}
+footer{
+    padding-top: 7em;
+}

@@ -297,21 +297,4 @@ footer{
     padding-top: 2em;
     margin-top: 2em;
 }
-.whatsapp-float {
-        position: absolute;
-        bottom: 24px;
-        right: 24px;
-        z-index: 999;
-        background: #25d366;
-        border-radius: 50%;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        padding: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: box-shadow 0.2s;
-}
-.whatsapp-float:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-    background: #20ba5a;
-}
+

@@ -11,7 +11,6 @@ header{
 main{
     width: 86vw;
     margin: auto;
-    background-image: linear-gradient(20deg, #68c8115e, #c853c55e, #21b8c85e);
     padding: 10px;
     border-radius: 10px 0px;
 }
@@ -43,7 +42,6 @@ label{
     main{
         width: 80vw;
         margin: auto;
-        background-image: linear-gradient(20deg, #68c8115e, #c853c55e, #21b8c85e);
         padding: 20px;
         border-radius: 10px 0px;
         font-size: 1.5em;
@@ -77,7 +75,6 @@ label{
     main{
         width: 70vw;
         margin: auto;
-        background-image: linear-gradient(20deg, #68c8115e, #c853c55e, #21b8c85e);
         padding: 30px;
         border-radius: 10px 0px;
         font-size: 2em;

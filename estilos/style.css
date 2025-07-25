@@ -49,7 +49,7 @@ h1{
     width: 6vw;
     height: 6vh;
 }
-a:hover{
+header > a:hover{
     background-color: rgb(46, 18, 29);
     color: rgb(194, 133, 194);
     text-decoration: underline;
@@ -200,8 +200,8 @@ a:hover{
 }
 /* Áreas de atuação */
 .atuation{
-    background-image: url(../fundos/images\ \(7\)\ \(1\).jpeg);
-    background-position: center left;
+    background-image: url("../fundos/transferir\ \(17\)\ \(1\).jpeg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -212,7 +212,7 @@ a:hover{
 }
 .atuation > div > p{
     background-color: #242938;
-    margin-right: 23vw;
+    margin-right: 24vw;
     padding: 15px;
     text-align: justify;
     line-height: 2em;
@@ -236,10 +236,15 @@ a:hover{
     overflow-x: hidden;
 }
 
-.imagens > img{
-    width: 50vw;
+.imagens >  img{
+    width: 100%;
     border: 1px dashed orchid;
+    border-radius: 5px;
 }
+.imagens >  img:hover{
+    width: 51vw;
+}
+
 .i1, .i2, .i3, .i4{
     display: none;
 }
@@ -287,6 +292,10 @@ a:hover{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
 }
+#wimg:hover{
+    border: #ca7b13 solid 1.6px;
+    border-radius: 50%;
+}
 footer{
     width: 100%;
     height: 100px;
@@ -296,7 +305,13 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 30px;
-    padding-top: 2em;
+    padding-top: 7em;
+    padding-bottom: 4em;
     margin-top: 2em;
 }
-
+footer > p, a, div{
+    padding: 10px;
+}
+footer > div > a > .fimg{
+    width: 18px;
+}

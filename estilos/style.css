@@ -296,23 +296,24 @@ header > a:hover{
     border: #ca7b13 solid 1.6px;
     border-radius: 50%;
 }
-footer{
+
+footer {
     width: 100%;
-    height: 100px;
+    min-height: 120px; /* Permite crescer conforme o conteúdo */
     background-color: #27942e;
     color: #e7dff1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    padding-top: 7em;
-    padding-bottom: 4em;
+    padding: 3em 1em 3em 1em; /* Padding generoso em todos os lados */
     margin-top: 2em;
-    padding-bottom: 4.2em;
+    box-sizing: border-box;
 }
-footer > p, a, div{
-    padding: 10px;
+
+footer > * {
+    padding: 0; /* Remove padding dos filhos diretos */
+    margin: 0.5em 0; /* Espaço entre os itens */
 }
-footer > div > a > .fimg{
-    width: 18px;
-}
+
+
